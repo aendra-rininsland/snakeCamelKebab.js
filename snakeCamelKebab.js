@@ -11,18 +11,14 @@
    * @return {string}       Case of string or false if not snake, camel or kebab.
    */
   exports.detectCase = function(input){
-    switch(input) {
-      case input.match(/(?:[A-Za-z0-9][a-z0-9]*[A-Z0-9][a-z0-9]*)*/):
-        return 'camel';
-      
-      case input.match(/[A-Za-z0-9]+(?:\-[A-Za-z0-9]+)+/):
-        return 'kebab';
-      
-      case input.match(/[A-Za-z0-9\_]+(?:\_[A-Za-z0-9]+)*/):
-        return 'snake';
-        
-      default:
-        return false;
+    if (input.match(/(?:[A-Za-z0-9][a-z0-9]*[A-Z0-9][a-z0-9]*)*/)) {
+      return 'camel';
+    } else if (input.match(/[A-Za-z0-9]+(?:\-[A-Za-z0-9]+)+/)) {
+      return 'kebab';
+    } else if (input.match(/[A-Za-z0-9\_]+(?:\_[A-Za-z0-9]+)*/)) {
+      return 'snake';
+    } else {
+      return false;
     }
   };
   
