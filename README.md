@@ -2,6 +2,8 @@
 
 Simple library for converting between cases.
 
+Idea from [qerub/camel-snake-kebab](https://github.com/qerub/camel-snake-kebab).
+
 ## Usage:
 
 ```javascript
