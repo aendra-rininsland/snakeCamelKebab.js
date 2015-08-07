@@ -1,0 +1,29 @@
+{
+  "name": "snakecamelkebab",
+  "main": "snakeCamelKebab.js",
+  "version": "0.1.0",
+  "authors": [
+    "Ændrew Rininsland <aendrew@aendrew.com>"
+  ],
+  "description": "Quick utility for changing cases",
+  "moduleType": [
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "strings",
+    "snake_case",
+    "camelCase",
+    "kebab-case",
+    "utility"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/aendrew/snakeCamelKebab.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

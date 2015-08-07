@@ -1,0 +1,27 @@
+{
+  "name": "snakecamelkebab",
+  "version": "0.1.0",
+  "description": "Tiny utility for changing casing styles.",
+  "main": "snakeCamelKebab.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aendrew/snakeCamelKebab.js.git"
+  },
+  "keywords": [
+    "snake_case",
+    "camelCase",
+    "kebab-case",
+    "cases",
+    "strings",
+    "convert"
+  ],
+  "author": "Ændrew Rininsland <aendrew@aendrew.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aendrew/snakeCamelKebab.js/issues"
+  },
+  "homepage": "https://github.com/aendrew/snakeCamelKebab.js#readme"
+}
